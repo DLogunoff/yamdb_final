@@ -12,7 +12,7 @@ from api_yamdb.settings import EMAIL_FROM_ADDRESS
 from authentication.permissions import UserObjectPermission
 
 from .models import User
-from .serializers import RegistrationSerializer, EmailSerializer
+from .serializers import EmailSerializer, RegistrationSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
