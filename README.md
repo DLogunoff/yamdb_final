@@ -32,4 +32,4 @@ docker-compose down
 
 
 
-https://github.com/Kedow132/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+https://github.com/Kedow132/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg
