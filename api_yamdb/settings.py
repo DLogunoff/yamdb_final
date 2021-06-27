@@ -11,9 +11,9 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "[::1]",
     "testserver",
-    #"178.154.247.171",
-    #"danilalogunov.tk",
-    #"www.danilalogunov.tk",
+    # "178.154.247.171",
+    # "danilalogunov.tk",
+    # "www.danilalogunov.tk",
 ]
 
 INSTALLED_APPS = [
