@@ -1,4 +1,5 @@
 # api_yamdb
+www.danilalogunov.tk
 ### Описание
 Данный проект является API для социальной сети Yatube.
 ### Технологии
@@ -29,4 +30,6 @@ docker-compose exec web python manage.py loaddata fixtures.json
 - Чтобы остановить проект используйте комманду
 docker-compose down
 
-https://github.com/Kedow132/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+
+
+https://github.com/Kedow132/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg
