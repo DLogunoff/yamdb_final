@@ -7,13 +7,9 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    "[::1]",
-    "testserver",
-    # "178.154.247.171",
-    # "danilalogunov.tk",
-    # "www.danilalogunov.tk",
+    "217.28.230.139",
+    "danilalogunov.tk",
+    "www.danilalogunov.tk",
 ]
 
 INSTALLED_APPS = [
