@@ -6,13 +6,7 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    "217.28.230.139",
-    "danilalogunov.tk",
-    "www.danilalogunov.tk",
-]
-
-# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
