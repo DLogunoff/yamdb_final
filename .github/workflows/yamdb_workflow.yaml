@@ -60,6 +60,8 @@ jobs:
             sudo docker pull kedow/yamdb
             sudo docker-compose stop
             sudo docker-compose rm web
+            sudo docker-compose exec web python manage.py migrate --noinput
+            docker-compose exec web python manage.py collectstatic --no-input
             # Создаст файл для переменных окружения
             touch .env 
             # Наполнит файл переменными окружения из секретов GitHub
