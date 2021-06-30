@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'django_email_verification',
     'rest_framework',
-    'api',
+    "api",
 ]
 
 MIDDLEWARE = [
