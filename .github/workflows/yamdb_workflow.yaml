@@ -60,8 +60,6 @@ jobs:
             sudo docker pull kedow/yamdb
             sudo docker-compose stop
             sudo docker-compose rm web
-            sudo docker-compose exec web python manage.py migrate --noinput
-            sudo docker-compose exec web python manage.py collectstatic --no-input
             # Создаст файл для переменных окружения
             touch .env 
             # Наполнит файл переменными окружения из секретов GitHub
@@ -72,6 +70,7 @@ jobs:
             echo DB_HOST=${{ secrets.DB_HOST }} >> .env
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
             sudo docker-compose up -d
+            sudo docker cp /home/danilalogunov/redoc.yaml danilalogunov_web_1:/code/static
 
   send_message:
     runs-on: ubuntu-latest
